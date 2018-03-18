@@ -1,5 +1,5 @@
 N=int(input())
 if(N%2!=0):
-    print("odd")
+    print("Odd")
 else:
-    print("even")
+    print("Even")
