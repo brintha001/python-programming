@@ -3,4 +3,4 @@ v=input()
 if v in list:
     print("consonant")
 else:
-    print("vowels")
+    print("vowel")
