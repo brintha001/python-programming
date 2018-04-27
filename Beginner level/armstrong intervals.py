@@ -6,5 +6,5 @@ for i in range(int(g)+1,int(h)):
         r=i%10
         c=c+r*r*r
         i=i//10
- if(c==temp):
-     print(temp,end='')
+    if(c==temp):
+        print(temp,end='')
