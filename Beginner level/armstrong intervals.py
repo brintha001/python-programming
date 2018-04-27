@@ -7,4 +7,4 @@ for i in range(int(g)+1,int(h)):
         c=c+r*r*r
         i=i//10
     if(c==temp):
-        print(temp,end='')
+        print(temp,end=' ')
