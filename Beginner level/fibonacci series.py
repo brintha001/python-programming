@@ -6,7 +6,7 @@ f=0
 print e,
 print d,
 for i in range(1,n-1):
-            f=e+d
-            print f,
-            e=d
-            d=f
+        f=e+d
+        print f,
+        e=d
+        d=f
