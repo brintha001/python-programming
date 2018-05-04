@@ -1,10 +1,10 @@
-def Power(a):
-    if (a == 0):
+def Power(b):
+    if (b == 0):
         return False
-    while (a != 1):
-            if (a % 2 != 0):
+    while (b != 1):
+            if (b % 2 != 0):
                 return False
-            a = a // 2
+            b = b // 2
              
     return True
 n=int(input())
