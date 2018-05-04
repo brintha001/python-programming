@@ -1,21 +1,21 @@
-a=raw_input()
-b=len(a)
-s=0
-c=b
-if (a=='IX'):
+v=raw_input()
+w=len(v)
+x=0
+y=w
+if (v=='IX'):
 	print "9"
-if (a=='IIX'):
+if (v=='IIX'):
 	print "19"
 else:
-	while(c>0):
-		for i in range(0,b):
-			if(a[i]=='I'):
-				s=s+1
-				c=c-1
-			elif(a[i]=='X'):
-				s=s+10
-				c=c-1
-			elif(a[i]=='V'):
-				s=s+5
-				c=c-1
+	while(y>0):
+		for i in range(0,w):
+			if(v[i]=='I'):
+				x=x+1
+				y=y-1
+			elif(v[i]=='X'):
+				x=x+10
+				y=y-1
+			elif(v[i]=='V'):
+				x=x+5
+				y=y-1
 	print s
