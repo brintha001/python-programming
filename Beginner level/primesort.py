@@ -1,0 +1,13 @@
+n=int(raw_input())
+i=1
+while(i<=n):
+    m=0
+    if(n%i==0):
+        j=1
+        while(j<=i):
+            if(i%j==0):
+                m=m+1
+            j=j+1
+        if(m==2):
+            print(i),
+    i=i+1
