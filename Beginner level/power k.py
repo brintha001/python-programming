@@ -4,9 +4,9 @@ v=int(v)
 r=0
 while(r<u):
 	if (v**r)==a:
-		print "yes"
+		print("yes")
 		break
 	else:
 		r=r+1
 if r==u:
-	print "no"
+	print("no")
