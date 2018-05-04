@@ -1,3 +1,2 @@
-str=raw_input()
-newstr=str.replace("  "," ")
-print newstr
+l=input(" ")
+print(" ".join(l.split()))
