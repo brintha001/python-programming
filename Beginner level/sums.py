@@ -1,4 +1,4 @@
-m=2
-n=8
+m=int(input())
+n=int(input())
 z=m+n
 print(z)
